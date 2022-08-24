@@ -1,0 +1,164 @@
+body {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+script {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #333232;
+}
+
+#titulo {
+    color: #F7B2AD;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 1rem;
+    height: 10%;
+}
+
+.menu {
+    background-color: #F7B2AD;
+    color: #333232;
+}
+
+.nav__ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly
+}
+
+.nav__li {
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.nav__li a {
+    color: #f3f2f3;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.nav__li a:hover {
+    color: #45818f;
+}
+
+.consultorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.consultorio h2 {
+    color: #45818f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    background: rgba(139, 137, 137, 0.2);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#formularioTurnos label {
+    color: #333232;
+    font-weight: 600;
+    padding: 2%;
+}
+
+#formularioTurnos input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0.4em;
+    background-color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    transition: border-bottom .10s;
+    transition: border .10s;
+    ;
+}
+
+#formularioTurnos input:focus {
+    border: 1px solid #298094;
+}
+
+#formularioTurnos input:hover {
+    border-bottom: 1px solid #3da7bd;
+}
+
+#enviar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    color: #FCF6B1;
+    background-color: #5f97a3;
+    padding: 2%;
+    transition: background-color .5s;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-shadow: #333232;
+    border: hidden;
+    border-radius: 10px;
+}
+
+#enviar:hover {
+    background-color: #436f79;
+    ;
+}
+
+#fieldset {
+    border: none;
+}
+
+.container-turnos {
+    display: flex;
+    justify-content: center;
+    border: #333232;
+}
+
+.tituloTurnos {
+    margin: 5%;
+    align-items: center;
+    text-align: center;
+    color: #45818f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 250%;
+}
+
+.table {
+    background-color: aliceblue;
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    border-bottom: 2px solid #333232;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+thead {
+    border-bottom: solid 5px black;
+}
+
+footer {
+    margin: 0%;
+    padding: 0%;
+}
