@@ -22,7 +22,7 @@ function obtenerTurnos() {
 
 function localStorageTurnos(plista) {
     localStorage.setItem('localTurnos', JSON.stringify(plista));
-    if (plista.length >= 3) {
+    if (plista.length >= 5) {
         fieldset.disabled = true;
         Swal.fire("No hay más turnos disponibles");
     } else {

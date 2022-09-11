@@ -97,6 +97,7 @@ form {
     border-bottom: 1px solid #3da7bd;
 }
 
+#mostrar,
 #enviar {
     font-family: 'Open Sans', sans-serif;
     font-size: large;
@@ -114,7 +115,16 @@ form {
     border-radius: 10px;
 }
 
+#mostrar {
+    width: 50%;
+}
+
 #enviar:hover {
+    background-color: #436f79;
+    ;
+}
+
+#mostrar:hover {
     background-color: #436f79;
     ;
 }
@@ -127,6 +137,11 @@ form {
     display: flex;
     justify-content: center;
     border: #333232;
+}
+
+.btn__mostrar {
+    display: flex;
+    justify-content: center;
 }
 
 .tituloTurnos {
@@ -161,4 +176,16 @@ thead {
 footer {
     margin: 0%;
     padding: 0%;
+}
+
+.footer {
+    align-items: flex-end;
+}
+
+.alto-carrusel {
+    height: 30rem;
+}
+
+.texto-index {
+    margin: 5%;
 }
