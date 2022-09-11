@@ -1,0 +1,22 @@
+[{
+        "nombre": "Gimena Ríos",
+        "edad": 25,
+        "email": "gimenarios@gmail.com",
+        "fecha": "2022-10-06",
+        "hora": "15:30"
+    },
+    {
+        "nombre": "Fabián Goméz",
+        "edad": 48,
+        "email": "gomezfabian@gmail.com",
+        "fecha": "2022-10-10",
+        "hora": "16:40"
+    },
+    {
+        "nombre": "María Lucero",
+        "edad": 32,
+        "email": "mariarlucero@gmail.com",
+        "fecha": "2022-11-01",
+        "hora": "17:00"
+    }
+]

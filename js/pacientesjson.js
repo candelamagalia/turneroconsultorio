@@ -1,7 +1,7 @@
 document.getElementById('mostrar').addEventListener('click', cargarJSON);
 
 function cargarJSON() {
-    fetch('/pacientes.json')
+    fetch('../pacientes.json')
         .then(function(res) {
             return res.json();
 
